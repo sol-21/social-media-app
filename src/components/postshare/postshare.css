@@ -1,0 +1,68 @@
+.post-share {
+  display: flex;
+  border-radius: 1rem;
+  background: var(--cardColor);
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.post-share > img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+.input-icon {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 1rem;
+}
+
+.input-icon > input {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 17px;
+  background: var(--inputColor);
+  outline: none;
+  border: none;
+}
+.post-option {
+  display: flex;
+  justify-content: space-around;
+}
+.option {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.preview-image {
+  position: relative;
+}
+.preview-image > svg {
+  position: absolute;
+  right: 1rem;
+  top: 0.5rem;
+  cursor: pointer;
+}
+.preview-image > img {
+  width: 100%;
+  max-height: 20rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .post-option {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .post-share {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

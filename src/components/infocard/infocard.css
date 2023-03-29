@@ -1,0 +1,26 @@
+.info-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  padding: 1rem;
+  background-color: var(--cardColor);
+  border-radius: 1rem;
+}
+.info-head,
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+.info-head > h4 {
+  margin: 0;
+}
+.info-head > div:hover {
+  cursor: pointer;
+}
+.btn-width {
+  width: 7rem;
+  height: 2rem;
+  margin-top: 6rem;
+  align-self: flex-end;
+}

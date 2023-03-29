@@ -1,0 +1,37 @@
+.logo-search {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  background: var(--inputColor);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.search > input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.search-icon {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 4px;
+  color: white;
+  background: linear-gradient(103deg, rgb(253, 133, 13), rgb(255, 121, 4));
+}
+
+.search-icon:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    103deg,
+    rgba(253, 133, 13, 0.6),
+    rgba(255, 121, 4, 0.7)
+  );
+}

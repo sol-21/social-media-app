@@ -1,0 +1,30 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: var(--cardColor);
+}
+.post > img {
+  width: 100%;
+  max-height: 20rem;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.post-reaction {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+}
+.bold-name {
+  font-weight: bold;
+  margin-right: 0.3rem;
+}

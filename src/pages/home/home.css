@@ -1,0 +1,26 @@
+.home {
+  position: relative;
+  display: grid;
+  /* grid-template-columns: 18rem auto 20rem; */
+  gap: 1rem;
+}
+
+@media screen and (min-width: 1248px) {
+  .home {
+    display: grid;
+    grid-template-columns: 18rem auto 20rem;
+  }
+}
+
+@media screen and (max-width: 1248px) {
+  .home {
+    display: grid;
+    max-width: 590px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 625px) and (max-width: 1248) {
+  .home > * {
+    flex-grow: 0;
+  }
+}

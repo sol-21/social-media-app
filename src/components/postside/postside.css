@@ -1,0 +1,14 @@
+.post-side {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 100vh;
+  overflow: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .post-side {
+    height: auto;
+    overflow: none;
+  }
+}

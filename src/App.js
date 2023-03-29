@@ -1,25 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './pages/home/Home';
+import React from 'react';
+import Profile from './pages/profile/Profile';
+import Auth from './pages/auth/Auth';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app'>
+      <div className='blur right'></div>
+      <div className='blur left'></div>
+      {/* <Home /> */}
+      <Profile />
+      {/* <Auth /> */}
     </div>
   );
-}
+};
 
 export default App;
+

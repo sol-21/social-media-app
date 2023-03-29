@@ -1,0 +1,35 @@
+.followers-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 0.7rem;
+  font-size: 0.9rem;
+  padding: 10px;
+}
+
+.all-followers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.follower-image {
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.followers-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.follower-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.follower-name > span:nth-of-type(1) {
+  font-weight: bold;
+}
